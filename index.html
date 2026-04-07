@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="fr"> <head><meta charset="UTF-8"><meta name="robots" content="noindex, nofollow"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SylEvents - Agence</title><meta name="description" content="Organisation d'évènements"><!-- SEO --><meta property="og:title" content="SylEvents - Agence"><meta property="og:description" content="Organisation d'évènements"><link rel="stylesheet" href="/sylevents/astro/index@_@astro.BJz3VbQG.css"></head> <body>  <header class="header" id="main-header"> <div class="container bg-1" style="display:flex;align-items:center;justify-content:space-between;"> <div style="display:flex;align-items:center;"> <img src="/sylevents/astro/logo.BnrAMNaP_22Ob5t.webp" id="logo" alt="logo SylEVENTS" loading="eager" decoding="async" width="128" height="100"> <h1 id="header-title" style="margin-left:10px; font-size:1.5rem;display:none;"> <em>Syl</em>EVENTS
+<!DOCTYPE html><html lang="fr"> <head><meta charset="UTF-8"><meta name="robots" content="noindex, nofollow"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SylEvents - Agence</title><meta name="description" content="Organisation d'évènements"><!-- SEO --><meta property="og:title" content="SylEvents - Agence"><meta property="og:description" content="Organisation d'évènements"><link rel="stylesheet" href="/sylevents/astro/index@_@astro.BPcUBhus.css"></head> <body>  <header class="header" id="main-header"> <div class="container bg-1" style="display:flex;align-items:center;justify-content:space-between;"> <div style="display:flex;align-items:center;"> <img src="/sylevents/astro/logo.BnrAMNaP_22Ob5t.webp" id="logo" alt="logo SylEVENTS" loading="eager" decoding="async" width="128" height="100"> <h1 id="header-title" style="margin-left:10px; font-size:1.5rem;display:none;"> <em>Syl</em>EVENTS
 </h1> </div> <nav> <a id="nav-home" href="#hero" style="margin-right:15px;">Accueil</a> <a id="nav-services" href="#services" style="margin-right:15px;">Nos services</a> <a id="nav-realisations" href="#realisations" style="margin-right:15px;">Nos réalisations</a> <a id="nav-contact" class="btn3" href="#contact">Contact</a> </nav> </div> <script type="module">
     const header = document.getElementById('main-header');
     const logo = document.getElementById('logo');
@@ -6,7 +6,6 @@
     const navHome = document.getElementById('nav-home');
     const navServices = document.getElementById('nav-services');
     const navRealisations = document.getElementById('nav-realisations');
-    const navTeam = document.getElementById('nav-team');
     const navContact = document.getElementById('nav-contact');
 
     const maxScroll = 200; // distance de scroll après laquelle le header sera réduit au minimum
@@ -42,7 +41,6 @@
       navHome.style.fontSize = `${fontSizeNav}rem`
       navServices.style.fontSize = `${fontSizeNav}rem`
       navRealisations.style.fontSize = `${fontSizeNav}rem`
-      navTeam.style.fontSize = `${fontSizeNav}rem`
       navContact.style.fontSize = `${fontSizeNav}rem`
     });
   </script> </header> <section class="section bg-1 hero" id="hero" style="text-align:center;"> <div class="container"> <h1 style="font-size:3rem; font-weight:700; margin-bottom:1rem;">
@@ -51,18 +49,18 @@ Transformez vos événements en expériences mémorables
 Organisation complète, design créatif et solutions sur mesure
 </p> <a href="#contact" class="btn">Planifiez votre événement</a> </div> <div class="divider-2"></div> </section> <section id="services" class="section bg-2"> <div class="container"> <h2 style="text-align:center; font-size:2.5rem; margin-bottom:2rem;">
 Nos services
-</h2> <div style="display:grid; grid-template-columns:1fr; gap:25px;"> <div class="card"> <h3 style="margin-bottom:1rem;">Location mobilier</h3> <div style="display:flex;flex-direction:row;justify-content:flex-start;align-items:center;gap:30px;"> <img src="/sylevents/astro/mobilier.DT7IEcY5_Ze4bir.webp" alt="Location mobilier" style="border-radius:10px;" loading="lazy" decoding="async" width="200" height="150"> <p style="margin:0;">
+</h2> <div style="display:grid; grid-template-columns:1fr; gap:25px;"> <div class="card" data-service="mobilier"> <h3 style="margin-bottom:1rem;">Location mobilier</h3> <div style="display:flex;flex-direction:row;justify-content:flex-start;align-items:center;gap:30px;"> <img src="/sylevents/astro/mobilier.DT7IEcY5_Ze4bir.webp" alt="Location mobilier" style="border-radius:10px;" loading="lazy" decoding="async" width="200" height="150"> <p style="margin:0;">
 La location de mobilier vous permet de créer une ambiance unique et
             entièrement personnalisée pour chacun de vos événements. Tables,
             chaises, salons lounge, bars ou éléments décoratifs : chaque pièce
             est soigneusement sélectionnée pour sublimer votre scénographie et
             refléter votre univers. Que vous organisiez un mariage, un événement
             professionnel ou une réception privée, nous vous accompagnons dans
-            le choix du mobilier afin d’allier esthétisme, confort et cohérence.
+            le choix du mobilier afin d'allier esthétisme, confort et cohérence.
             Offrez à vos invités un cadre élégant et harmonieux, pensé dans les
             moindres détails pour marquer les esprits.
-</p> </div> </div> <div class="card"> <h3 style="margin-bottom:1rem;">Création d'événements</h3> <div style="display:flex;flex-direction:row;justify-content:flex-start;align-items:center;gap:30px;"> <p style="margin:0;">
-Nous vous accompagnons dans la création d’événements sur-mesure, où
+</p> </div> </div> <div class="card" data-service="events"> <h3 style="margin-bottom:1rem;">Création d'événements</h3> <div style="display:flex;flex-direction:row;justify-content:flex-start;align-items:center;gap:30px;"> <p style="margin:0;">
+Nous vous accompagnons dans la création d'événements sur-mesure, où
             chaque détail compte. De la conception à la réalisation, nous
             imaginons des expériences uniques qui reflètent votre style et vos
             objectifs. Que ce soit un mariage, un lancement de produit ou une
@@ -70,15 +68,131 @@ Nous vous accompagnons dans la création d’événements sur-mesure, où
             événement soit inoubliable, mêlant créativité, organisation et
             harmonie. Laissez-nous transformer vos idées en moments mémorables
             qui captiveront vos invités.
-</p> <img src="/sylevents/astro/events.Bz2ZpTvM_Z252Sf0.webp" alt="Création d'événements" style="border-radius:10px;" loading="lazy" decoding="async" width="200" height="133"> </div> </div> <div class="card"> <h3 style="margin-bottom:1rem;">Décors</h3> <div style="display:flex;flex-direction:row;justify-content:flex-start;align-items:center;gap:30px;"> <img src="/sylevents/astro/decors.JI6McMPs_1Jspd.webp" alt="Décors" style="border-radius:10px;" loading="lazy" decoding="async" width="200" height="150"> <p style="margin:0;">
+</p> <img src="/sylevents/astro/events.Bz2ZpTvM_Z252Sf0.webp" alt="Création d'événements" style="border-radius:10px;" loading="lazy" decoding="async" width="200" height="133"> </div> </div> <div class="card" data-service="decors"> <h3 style="margin-bottom:1rem;">Décors</h3> <div style="display:flex;flex-direction:row;justify-content:flex-start;align-items:center;gap:30px;"> <img src="/sylevents/astro/decors.JI6McMPs_1Jspd.webp" alt="Décors" style="border-radius:10px;" loading="lazy" decoding="async" width="200" height="150"> <p style="margin:0;">
 Transformez vos espaces grâce à des décors uniques et sur-mesure.
             Chaque élément est pensé pour créer une ambiance immersive et
-            mémorable, qu’il s’agisse de détails raffinés ou de mises en scène
+            mémorable, qu'il s'agisse de détails raffinés ou de mises en scène
             spectaculaires. Du choix des couleurs aux accessoires décoratifs,
             nous imaginons un univers qui reflète votre vision et émerveille vos
             invités. Faites de chaque événement un moment visuel et émotionnel
             inoubliable.
-</p> </div> </div> </div> <div class="center-btn"> <a href="#contact" class="btn2">Contacter <span class="fonts-brush">Syl </span><span class="fonts-impact">EVENTS</span></a> </div> </div> <div class="divider-1"></div> </section> <section id="realisations" class="section bg-1" data-astro-cid-ybgzkljw> <div class="container" data-astro-cid-ybgzkljw> <h2 style="text-align:center; font-size:2.5rem; margin-bottom:3rem;" data-astro-cid-ybgzkljw>
+</p> </div> </div> </div> <div class="center-btn"> <a href="#contact" class="btn2">Contacter <span class="fonts-brush">Syl </span><span class="fonts-impact">EVENTS</span></a> </div> </div> <div class="divider-1"></div> <div id="tpl-mobilier" style="display:none"> <section id="modal-mobilier" class="modal-global" data-astro-cid-xphv4bhb> <h3 style="text-align: center;" data-astro-cid-xphv4bhb>Location mobilier</h3> <div style="display: flex;flex-direction: column;width: 100%; flex-grow: 1;align-items: center;justify-content: space-between;" data-astro-cid-xphv4bhb> <div id="mobilier-tables" class="category-panel visible" data-astro-cid-xphv4bhb> <h4 style="text-align: center; margin-bottom: 2rem; margin-top: 1rem;" data-astro-cid-xphv4bhb> Tables </h4> <div class="items-grid" data-astro-cid-xphv4bhb> <div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/table1.CnRRhzpg_Z1suyBt.webp" alt="Table haute scandinave" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="78" height="100"> <p data-astro-cid-xphv4bhb>Table haute scandinave</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/table2.j8kypRT5_1olYMP.webp" alt="Table haute bois massif rectangle" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="125" height="100"> <p data-astro-cid-xphv4bhb>Table haute bois massif rectangle</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/table3.D5eR1TL8_1JRoRk.webp" alt="Table haute carrée" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="74" height="100"> <p data-astro-cid-xphv4bhb>Table haute carrée</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/table4.LcgL2t_I_VSI1a.webp" alt="Table haute carrée" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="67" height="100"> <p data-astro-cid-xphv4bhb>Table haute carrée</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/table5.BUvWFZW4_aMYDO.webp" alt="Table haute industrielle" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="56" height="100"> <p data-astro-cid-xphv4bhb>Table haute industrielle</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/table6.DrKjYjJk_2pEafh.webp" alt="Table bois carrée" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="111" height="100"> <p data-astro-cid-xphv4bhb>Table bois carrée</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/table7.DKA1S6SF_1ipLV9.webp" alt="Table pliante noire" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="115" height="100"> <p data-astro-cid-xphv4bhb>Table pliante noire</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/table8.RjenOcix_1phIr.webp" alt="Tonneau mange debout" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="81" height="100"> <p data-astro-cid-xphv4bhb>Tonneau mange debout</p> </div> </div> </div> <div id="mobilier-chaises" class="category-panel" data-astro-cid-xphv4bhb> <h4 style="text-align: center; margin-bottom: 2rem; margin-top: 1rem;" data-astro-cid-xphv4bhb> Tables d&#39;appoints &amp; autres </h4> <div class="items-grid" data-astro-cid-xphv4bhb> <div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/table9.CUra68Jc_1ujeY.webp" alt="Table basse bois" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="161" height="100"> <p data-astro-cid-xphv4bhb>Table basse bois</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/table10.Dpy84HnK_1WnQSY.webp" alt="Petite table d'appoint" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="100" height="100"> <p data-astro-cid-xphv4bhb>Petite table d&#39;appoint</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/table11.B47XmdEJ_Z2dDzcL.webp" alt="Table pique-nique enfant" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="115" height="100"> <p data-astro-cid-xphv4bhb>Table pique-nique enfant</p> </div> </div> </div> <div id="mobilier-assises1" class="category-panel" data-astro-cid-xphv4bhb> <h4 style="text-align: center; margin-bottom: 2rem; margin-top: 1rem;" data-astro-cid-xphv4bhb> Chaises haute et tabourets </h4> <div class="items-grid" data-astro-cid-xphv4bhb> <div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise1.BRQ-57Rf_Z2elvUt.webp" alt="Tabouret haut scandinave" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="69" height="100"> <p data-astro-cid-xphv4bhb>Tabouret haut scandinave</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise2.Uo4xLKaH_ZczBQy.webp" alt="Tabouret industriel" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="70" height="100"> <p data-astro-cid-xphv4bhb>Tabouret industriel</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise3.6pA6Q0Oa_Zi1K6d.webp" alt="Tabouret haut métal" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="100" height="100"> <p data-astro-cid-xphv4bhb>Tabouret haut métal</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise4.CDNKj73q_24h9mG.webp" alt="Tabouret haut métal" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="64" height="100"> <p data-astro-cid-xphv4bhb>Tabouret haut métal</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise5.6sy2pqne_xlt7W.webp" alt="Tabouret haut Riviera" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="76" height="100"> <p data-astro-cid-xphv4bhb>Tabouret haut Riviera</p> </div> </div> </div> <div id="mobilier-assises2" class="category-panel" data-astro-cid-xphv4bhb> <h4 style="text-align: center; margin-bottom: 2rem; margin-top: 1rem;" data-astro-cid-xphv4bhb> Chaises </h4> <div class="items-grid" data-astro-cid-xphv4bhb> <div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise6.BsuVvZgY_2kNByh.webp" alt="Chaise de réalisateur bambou" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="80" height="100"> <p data-astro-cid-xphv4bhb>Chaise de réalisateur bambou</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise7.C8y0Ur5Q_1uAVT8.webp" alt="Chaise motif végétal" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="87" height="100"> <p data-astro-cid-xphv4bhb>Chaise motif végétal</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise8.Bgl52PNH_1d6CRg.webp" alt="Chaise pliante noire" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="100" height="100"> <p data-astro-cid-xphv4bhb>Chaise pliante noire</p> </div> </div> </div> <div id="mobilier-assises3" class="category-panel" data-astro-cid-xphv4bhb> <h4 style="text-align: center; margin-bottom: 2rem; margin-top: 1rem;" data-astro-cid-xphv4bhb> Assises détente </h4> <div class="items-grid" data-astro-cid-xphv4bhb> <div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise9.BZJtfBR1_Z1Ff88W.webp" alt="Pouf XXL" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="97" height="100"> <p data-astro-cid-xphv4bhb>Pouf XXL</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise10.D12yEf_E_ZiNGhW.webp" alt="Fauteuil pouf" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="131" height="100"> <p data-astro-cid-xphv4bhb>Fauteuil pouf</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise11.G7jE6OXZ_5SdIv.webp" alt="Chilienne" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="100" height="100"> <p data-astro-cid-xphv4bhb>Chilienne</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise12.u4auDYNU_XSQ9b.webp" alt="Chilienne" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="92" height="100"> <p data-astro-cid-xphv4bhb>Chilienne</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise13.CVPI6fUN_Z1pahFP.webp" alt="Chilienne" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="102" height="100"> <p data-astro-cid-xphv4bhb>Chilienne</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise14.DoVAIwJj_Z1LKaQw.webp" alt="Fauteuil de jardin" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="84" height="100"> <p data-astro-cid-xphv4bhb>Fauteuil de jardin</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise15.DQKlvXd-_ZlkAOw.webp" alt="Fauteuil pivotant seventies" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="97" height="100"> <p data-astro-cid-xphv4bhb>Fauteuil pivotant seventies</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise16.B5A34QcX_2qJTRF.webp" alt="Fauteuil seventies" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="107" height="100"> <p data-astro-cid-xphv4bhb>Fauteuil seventies</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise17.CzBTRACQ_2c4J3P.webp" alt="Fauteuil marron vintage" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="100" height="100"> <p data-astro-cid-xphv4bhb>Fauteuil marron vintage</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise18.ByRDJSWy_2sA1BT.webp" alt="Canapé marron vintage" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="170" height="100"> <p data-astro-cid-xphv4bhb>Canapé marron vintage</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/assise19.DBp4O5iS_Z1Tq9tx.webp" alt="Salon de jardin" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="179" height="100"> <p data-astro-cid-xphv4bhb>Salon de jardin</p> </div> </div> </div> <div id="mobilier-decors" class="category-panel" data-astro-cid-xphv4bhb> <h4 style="text-align: center; margin-bottom: 2rem; margin-top: 1rem;" data-astro-cid-xphv4bhb> Décors </h4> <div class="items-grid" data-astro-cid-xphv4bhb> <div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/decors1.D8_Vzi2l_W9mtS.webp" alt="Plante artificielle" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="78" height="100"> <p data-astro-cid-xphv4bhb>Plante artificielle</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/decors2.Dll2sf3r_3LOCd.webp" alt="Pelouse artificielle" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="100" height="100"> <p data-astro-cid-xphv4bhb>Pelouse artificielle</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/decors3.Cu0Yg_JQ_13foic.webp" alt="Suspension boule blanche" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="104" height="100"> <p data-astro-cid-xphv4bhb>Suspension boule blanche</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/decors4.DhFu_uma_Z11kDq0.webp" alt="Suspension jonc" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="83" height="100"> <p data-astro-cid-xphv4bhb>Suspension jonc</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/decors5.DGEuWXhL_Zcn26R.webp" alt="Caissette bois" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="139" height="100"> <p data-astro-cid-xphv4bhb>Caissette bois</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/decors6.CF73Hnzr_mM2HY.webp" alt="Faux mur en brique" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="65" height="100"> <p data-astro-cid-xphv4bhb>Faux mur en brique</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/decors7.DhvhNebn_Z1qBtSV.webp" alt="Affiche vintage encadrée" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="67" height="100"> <p data-astro-cid-xphv4bhb>Affiche vintage encadrée</p> </div> </div> </div> <div id="mobilier-equipement" class="category-panel" data-astro-cid-xphv4bhb> <h4 style="text-align: center; margin-bottom: 2rem; margin-top: 1rem;" data-astro-cid-xphv4bhb> Equipement </h4> <div class="items-grid" data-astro-cid-xphv4bhb> <div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/equipement1.DxM9hZel_24GwMJ.webp" alt="Parasol avec pied" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="84" height="100"> <p data-astro-cid-xphv4bhb>Parasol avec pied</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/equipement2.NuU3Orib_Me99O.webp" alt="Tonnelle" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="111" height="100"> <p data-astro-cid-xphv4bhb>Tonnelle</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/equipement3.2KbmNU5u_Z9nVhW.webp" alt="Frigo de bar" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="100" height="100"> <p data-astro-cid-xphv4bhb>Frigo de bar</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/equipement4.DTJTN2mf_ZzCwsr.webp" alt="Petit frigo" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="91" height="100"> <p data-astro-cid-xphv4bhb>Petit frigo</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/equipement5.BZ-RXg4f_1XHTWH.webp" alt="Cafetière" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="100" height="100"> <p data-astro-cid-xphv4bhb>Cafetière</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/equipement6.BTedqI2c_2eTHQD.webp" alt="Portant" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="91" height="100"> <p data-astro-cid-xphv4bhb>Portant</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/equipement7.DEqSMXS5_1VA9Cy.webp" alt="Porte manteaux" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="100" height="100"> <p data-astro-cid-xphv4bhb>Porte manteaux</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/equipement8.BuA6lWQe_1a6QeQ.webp" alt="Cintres" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="135" height="100"> <p data-astro-cid-xphv4bhb>Cintres</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/equipement9.BZ1rM8B9_1mKJya.webp" alt="Cloison de séparation" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="100" height="100"> <p data-astro-cid-xphv4bhb>Cloison de séparation</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/equipement10.fgq3ILRx_Z48BdF.webp" alt="Canon à chaleur " data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="100" height="100"> <p data-astro-cid-xphv4bhb>Canon à chaleur </p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/equipement11.3T017IGh_ZyGlEH.webp" alt="Machine à glaçons" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="134" height="100"> <p data-astro-cid-xphv4bhb>Machine à glaçons</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/equipement12.Bn9XGn0F_h5tnh.webp" alt="Poubelle cendrier" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="100" height="100"> <p data-astro-cid-xphv4bhb>Poubelle cendrier</p> </div> </div> </div> <div id="mobilier-bar" class="category-panel" data-astro-cid-xphv4bhb> <h4 style="text-align: center; margin-bottom: 2rem; margin-top: 1rem;" data-astro-cid-xphv4bhb> Bars </h4> <div class="items-grid" data-astro-cid-xphv4bhb> <div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/bar1.0ijy5w78_Z2bKDs9.webp" alt="Ice bar" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="133" height="100"> <p data-astro-cid-xphv4bhb>Ice bar</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/bar2.CJElngib_Z1P4Szy.webp" alt="Ice bar &#38; décors" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="133" height="100"> <p data-astro-cid-xphv4bhb>Ice bar &amp; décors</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/bar3.Df0Lmz5O_1sSYti.webp" alt="Bar en bois 3m" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="92" height="100"> <p data-astro-cid-xphv4bhb>Bar en bois 3m</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/bar4.C7x6bTd1_17FkrE.webp" alt="Bar en bois 5m" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="149" height="100"> <p data-astro-cid-xphv4bhb>Bar en bois 5m</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/bar5.vfWFwNjZ_Z5shBJ.webp" alt="Bar paillotte tiki" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="193" height="100"> <p data-astro-cid-xphv4bhb>Bar paillotte tiki</p> </div><div class="item-card" data-astro-cid-xphv4bhb> <img src="/sylevents/astro/bar6.MlfJnFP0_Z1TAR0P.webp" alt="Bar en bois U" data-astro-cid-xphv4bhb="true" loading="lazy" decoding="async" width="75" height="100"> <p data-astro-cid-xphv4bhb>Bar en bois U</p> </div> </div> </div> <div class="carousel-controls" data-astro-cid-xphv4bhb> <button id="mobilier-prev" class="btn2" data-astro-cid-xphv4bhb>&#8592;</button> <button id="mobilier-next" class="btn2" data-astro-cid-xphv4bhb>&#8594;</button> </div> </div> </section>  <script>
+  if (!window.__mobilierInit) {
+    window.__mobilierInit = true;
+
+    const types = [
+      "tables",
+      "chaises",
+      "assises1",
+      "assises2",
+      "assises3",
+      "decors",
+      "equipement",
+      "bar",
+    ];
+
+    function showPanel(modalBody, nextIndex) {
+      const panels = types.map((name) =>
+        modalBody.querySelector(`#mobilier-${name}`),
+      );
+
+      panels.forEach((div, i) => {
+        if (!div) return;
+
+        if (i === nextIndex) {
+          // 1. Rendre visible mais sans transition encore
+          div.classList.add("animating");
+          // 2. Forcer un reflow pour que la transition parte de l'état initial
+          div.getBoundingClientRect();
+          // 3. Déclencher la transition
+          div.classList.add("visible");
+          div.classList.remove("animating");
+        } else {
+          // Masquer sans transition (instantané)
+          div.classList.remove("visible", "animating");
+        }
+      });
+    }
+
+    document.addEventListener("click", (e) => {
+      if (e.target.id !== "mobilier-prev" && e.target.id !== "mobilier-next")
+        return;
+
+      const modalBody = document.getElementById("modalBody");
+      if (!modalBody) return;
+
+      const current = types.findIndex((name) =>
+        modalBody
+          .querySelector(`#mobilier-${name}`)
+          ?.classList.contains("visible"),
+      );
+      let next = current === -1 ? 0 : current;
+
+      if (e.target.id === "mobilier-prev") {
+        next = (current - 1 + types.length) % types.length;
+      } else {
+        next = (current + 1) % types.length;
+      }
+
+      showPanel(modalBody, next);
+    });
+  }
+</script> </div> <div id="tpl-events" style="display:none"> <section id="modal-events" class="modal-global"> <h3 style="text-align: center;">Création d'évènements</h3> <div style="display: flex;flex-direction: column;width: 100%; flex-grow: 1;align-items: center;justify-content: space-between;"></div> </section> </div> <div id="tpl-decors" style="display:none"> <section id="modal-decors" class="modal-global"> <h3 style="text-align: center;">Décors</h3> <div style="display: flex;flex-direction: column;width: 100%; flex-grow: 1;align-items: center;justify-content: space-between;"></div> </section> </div> <dialog id="modal" class="modal"> <div class="modal-content"> <button class="close-btn">✕</button> <div id="modalBody" style="height: 100%;"></div> </div> </dialog> </section> <script>
+  const dialog = document.getElementById("modal");
+  const modalBody = document.getElementById("modalBody");
+  const closeBtn = document.querySelector(".close-btn");
+
+  // Ouverture : on copie le contenu pré-rendu dans la modal
+  document.querySelectorAll(".card").forEach((card) => {
+    card.addEventListener("click", () => {
+      const service = card.dataset.service;
+      const tpl = document.getElementById(`tpl-${service}`);
+      if (!tpl || !modalBody || !dialog) return;
+
+      // Vider puis injecter une copie du nœud pré-rendu
+      modalBody.innerHTML = tpl.innerHTML;
+
+      dialog.showModal();
+      document.body.classList.add("modal-open");
+
+      const modalContent = dialog.querySelector(".modal-content");
+      modalContent.classList.remove("closing");
+
+      // Petit tick pour que la transition CSS fonctionne
+      requestAnimationFrame(() => {
+        modalContent.classList.add("show");
+      });
+    });
+  });
+
+  // Fermeture animée
+  function closeDialog() {
+    const modalContent = dialog.querySelector(".modal-content");
+    modalContent.classList.remove("show");
+    modalContent.classList.add("closing");
+
+    setTimeout(() => {
+      dialog.close();
+      modalContent.classList.remove("closing");
+      document.body.classList.remove("modal-open");
+    }, 300); // doit correspondre à la durée de transition CSS
+  }
+
+  closeBtn?.addEventListener("click", closeDialog);
+
+  // Clic en dehors du contenu de la modal
+  dialog?.addEventListener("click", (e) => {
+    const rect = dialog.getBoundingClientRect();
+    if (
+      e.clientX < rect.left ||
+      e.clientX > rect.right ||
+      e.clientY < rect.top ||
+      e.clientY > rect.bottom
+    ) {
+      closeDialog();
+    }
+  });
+</script> <section id="realisations" class="section bg-1" data-astro-cid-ybgzkljw> <div class="container" data-astro-cid-ybgzkljw> <h2 style="text-align:center; font-size:2.5rem; margin-bottom:3rem;" data-astro-cid-ybgzkljw>
 Réalisations
 </h2> <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:30px;" data-astro-cid-ybgzkljw> <div class="card-2" style="padding:20px; border-radius:12px; box-shadow:0 5px 20px rgba(33,33,33,0.5); display:flex; flex-direction:column; align-items:center; gap:15px;" data-astro-cid-ybgzkljw> <img src="/sylevents/astro/realisation1.DU7mW92s_UW4k9.webp" alt="Réalisation 1" style="border-radius: 8px;width:100%; height:auto; display:block;" data-astro-cid-ybgzkljw="true" loading="lazy" decoding="async" width="900" height="600"> <p style="font-style:italic;" data-astro-cid-ybgzkljw>Fête d'entreprise</p> <strong data-astro-cid-ybgzkljw>Entreprise X</strong> </div> <div class="card-2" style="padding:20px; border-radius:12px; box-shadow:0 5px 20px rgba(33,33,33,0.5); display:flex; flex-direction:column; align-items:center; gap:15px;" data-astro-cid-ybgzkljw> <img src="/sylevents/astro/realisation2.r1uLvZ3p_Z1dBQ1B.webp" alt="Réalisation 2" style="border-radius: 8px;width:100%; height:auto; display:block;" data-astro-cid-ybgzkljw="true" loading="lazy" decoding="async" width="1168" height="779"> <p style="font-style:italic;" data-astro-cid-ybgzkljw>Fête d'entreprise</p> <strong data-astro-cid-ybgzkljw>Entreprise Y</strong> </div> <div class="card-2" style="padding:20px; border-radius:12px; box-shadow:0 5px 20px rgba(33,33,33,0.5); display:flex; flex-direction:column; align-items:center; gap:15px;" data-astro-cid-ybgzkljw> <img src="/sylevents/astro/realisation3.DBflXiyc_2dy3Qe.webp" alt="Réalisation 3" style="border-radius: 8px;width:100%; height:auto; display:block;" data-astro-cid-ybgzkljw="true" loading="lazy" decoding="async" width="1280" height="720"> <p style="font-style:italic;" data-astro-cid-ybgzkljw>Fête d'entreprise</p> <strong data-astro-cid-ybgzkljw>Entreprise Z</strong> </div> </div> </div> <div class="container" data-astro-cid-ybgzkljw> <h3 style="text-align:center;margin-top:3rem;margin-bottom:0rem" data-astro-cid-ybgzkljw>
 Ils nous ont fait confiance
